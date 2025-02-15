@@ -1,0 +1,50 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .overtime-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  .overtime-form label {
+    margin: 10px 0 5px;
+  }
+  
+  .overtime-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .overtime-form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .overtime-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .overtime-list {
+    margin-top: 20px;
+  }
+  
+  .overtime-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .overtime-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }  
